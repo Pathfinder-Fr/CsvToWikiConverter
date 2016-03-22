@@ -13,14 +13,23 @@ Une fois le script d'installation terminé, le programme est disponible pour con
 
 # Conversion d'un tableau
 
-La conversion nécessite tout d'abord de télécharger le tableau au format tsv.
+La conversion nécessite tout d'abord de télécharger le tableau au format `.tsv`.
 
 Depuis le tableau sous Google Drive, sélectionnez tout d'abord l'onglet que vous souhaitez exporter.
 
 Puis rendez-vous dans le menu `Fichier`, `Télécharger au format`, puis `Valeurs séparées par des tabulations (.tsv, feuille active)`.
 
-Le site devrait vous faire télécharger un fichier "Equipement Pathfinder - Armures".
+Le site devrait vous faire télécharger un fichier "Equipement Pathfinder - xxx".
 
-Renommez-le en "Armures" puis déplacez le dans le dossier du programme installé.
+Renommez-le en supprimant toute la partie "Equipement Pathinder - " puis déplacez le dans le dossier du programme installé.
 
-Lancez ensuite la commande "run-armures.bat", et si tout se passe bien un fichier "Armures.txt" devrait être généré avec le contenu wiki à coller.
+Lancez ensuite la commande "run-xxx.bat" correspondant à l'onglet sélectionné, et si tout se passe bien un fichier "xxx.txt" devrait être généré avec le contenu wiki à coller.
+
+## Exemple : fichier Armures
+
+1. Téléchargez le fichier des armures depuis [google docs](https://docs.google.com/spreadsheets/d/1vl-MbogN6skGg7qnP83qX55zPVXb1KlzZLJo8ahgkqY/edit#gid=1568769969)
+2. Renommez le fichier `Equipement Pathfinder - Armures.tsv` en `Armures.tsv`
+3. Déplacez le fichier dans le dossier d'installation du programme
+4. Exécutez `run-armures.bat`
+
+Vous devriez avoir un fichier `Armures.txt` de généré.
