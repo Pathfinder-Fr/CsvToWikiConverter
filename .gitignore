@@ -1,0 +1,8 @@
+#################
+## DotNet
+#################
+
+bin/
+obj/
+project.lock.json
+*.tsv
