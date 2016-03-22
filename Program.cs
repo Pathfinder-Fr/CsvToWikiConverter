@@ -8,23 +8,40 @@ namespace ConsoleApplication
     {        
         public static void Main(string[] args)
         {
-            var fileName = args.FirstOrDefault() ?? string.Empty;            
-            switch (fileName)
+            Console.WriteLine("Outil de conversion des tableaux Google au format WIKI");
+            Console.WriteLine("======================================================");
+            Console.WriteLine(" ");
+            
+            var fileName = args.FirstOrDefault() ?? string.Empty;           
+            switch (fileName.ToLowerInvariant())
             {
-                case "Armures":
-                    new Armures().Run();
+                case "armures":
+                    try
+                    {
+                        new Armures().Run();
+                    }
+                    catch (NotSupportedException nse)
+                    {
+                        Console.WriteLine($"ERREUR : {nse.Message}");
+                    }
                     break;
                     
                 case "":
-                    Console.WriteLine("Vous devez indiquer un fichier à traduire");
+                    Console.WriteLine("ERREUR : Vous devez indiquer un fichier a convertir.");
+                    ShowHelp();
                     break;
                     
                 default:
-                    Console.WriteLine($"Fichier non supporté : {fileName}");
-                    Console.WriteLine("Liste des fichiers supportés :");
-                    Console.WriteLine("- Armures : Fichier des armures");
+                    Console.WriteLine($"ERREUR : Fichier non supporte : {fileName}.");
+                    ShowHelp();
                     break;
             }            
+        }
+        
+        private static void ShowHelp()
+        {
+            Console.WriteLine("Liste des fichiers supportes :");
+            Console.WriteLine("- Armures : Fichier des armures");
         }
     }
     

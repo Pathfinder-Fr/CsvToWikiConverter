@@ -13,24 +13,24 @@ namespace ConsoleApplication
         public Armures(ILog log = null)
         {
             this.log = log ?? new ConsoleLog();
-            this.@out = new FileOut(@"Armures.txt");
+            this.@out = new FileOut(@"armures.txt");
         }
         
         public void Run()
-        {            
-            var fileName = @"Armures.tsv";
+        {
+            log.WriteLine("Conversion du fichier des armures au format wiki");
+            
+            var fileName = @"armures.tsv";
             if (!File.Exists(fileName))
             {
-                log.WriteLine($"Fichier {fileName} introuvable");
-                return;
+                throw new NotSupportedException($"Fichier {fileName} introuvable");
             }          
             
             Row previousRow = null;
             var altRow = false;
             var count = 0;
             
-            log.WriteLine("Début de la lecture du fichier wiki...");
-            
+            log.WriteLine("Demarrage de la conversion des lignes...");            
             foreach (var line in File.ReadAllLines(fileName).Skip(1))
             {
                 // lecture ligne
@@ -46,7 +46,7 @@ namespace ConsoleApplication
             }
             
             @out.Close();
-            log.WriteLine($"Conversion terminée, {count} lignes écrites dans le fichier Armures.txt");
+            log.WriteLine($"Conversion terminee, {count} armures ecrites dans le fichier armures.txt");
         }
         
         private void ConvertRow(Row row, Row previousRow, bool altRow)
@@ -162,7 +162,7 @@ namespace ConsoleApplication
                 case "4,50 m (3 c)3": return "4,50 m (3 {s:c})<sup>[[Tableau récapitulatif des armures#NOTE3|3]]</sup>";
                 case "3 m (2 c)3": return "3 m (2 {s:c})<sup>[[Tableau récapitulatif des armures#NOTE3|3]]</sup>";
                 case "—": return "—";
-                default: throw new NotSupportedException($"Vitesse de déplacement non reconnue : {speed}");                
+                default: throw new NotSupportedException($"Vitesse de deplacement non reconnue : {speed}");                
             }
         }
         
