@@ -1,55 +1,38 @@
 using System;
-using System.IO;
-using System.Linq;
 
 namespace ConsoleApplication
 {
-    internal class Armures
+    internal class Armures : SheetReader<ArmuresRow>
     {
-        private readonly ILog log;
-        
-        private readonly IOut @out;
-        
         public Armures(ILog log = null)
+            : base("armures.txt", log)
         {
-            this.log = log ?? new ConsoleLog();
-            this.@out = new FileOut(@"armures.txt");
         }
         
-        public void Run()
+        protected override ArmuresRow FromLine(string line)
         {
-            log.WriteLine("Conversion du fichier des armures au format wiki");
-            
-            var fileName = @"armures.tsv";
-            if (!File.Exists(fileName))
+            var cells = ReadCsvCells(line, 14);
+            var i = 0;
+            return new ArmuresRow
             {
-                throw new NotSupportedException($"Fichier {fileName} introuvable");
-            }          
-            
-            Row previousRow = null;
-            var altRow = false;
-            var count = 0;
-            
-            log.WriteLine("Demarrage de la conversion des lignes...");            
-            foreach (var line in File.ReadAllLines(fileName).Skip(1))
-            {
-                // lecture ligne
-                var row = Row.FromCells(line.Split('\t'));
-                
-                // conversion format wiki
-                this.ConvertRow(row, previousRow, altRow);
-                
-                // passage ligne suivante
-                previousRow = row;
-                altRow = !altRow;
-                count++;
-            }
-            
-            @out.Close();
-            log.WriteLine($"Conversion terminee, {count} armures ecrites dans le fichier armures.txt");
+                Name = cells[i++],
+                WikiLink = cells[i++],
+                Type = cells[i++],
+                Price = cells[i++],
+                Bonus = cells[i++],
+                DexMax = cells[i++],
+                Malus = cells[i++],
+                SpellMiss = cells[i++],
+                Speed9 = cells[i++],
+                Speed6 = cells[i++],
+                Weight = cells[i++],
+                Special = cells[i++],
+                Source = cells[i++],
+                Note = cells[i++],
+            };            
         }
         
-        private void ConvertRow(Row row, Row previousRow, bool altRow)
+        protected override void ReadRow(ArmuresRow row, ArmuresRow previousRow, bool altRow, IOut @out)
         {
             // si le type d'armure change, alors on écrit le séparateur de types
             if (previousRow?.Type != row.Type)
@@ -96,7 +79,9 @@ namespace ConsoleApplication
             @out.Write(this.ReadWikiLink(row.WikiLink));
             @out.Write("|");
             @out.Write(row.Name);
-            @out.Write("]] || ");
+            @out.Write("]]");
+            @out.Write(this.ReadNameNote(row.Note));
+            @out.Write(" || ");
             
             // prix
             @out.Write(row.Price);
@@ -116,14 +101,17 @@ namespace ConsoleApplication
             
             // risque échec sort
             @out.Write(row.SpellMiss);
+            @out.Write(this.ReadSpellMissNote(row.Note));
             @out.Write(" || ");
             
             // vitesse 9m
             @out.Write(this.ReadSpeed(row.Speed9));
+            @out.Write(this.ReadSpeedNote(row.Note));
             @out.Write(" || ");
             
             // vitesse 6m
             @out.Write(this.ReadSpeed(row.Speed6));
+            @out.Write(this.ReadSpeedNote(row.Note));
             @out.Write(" || ");
             
             // poids
@@ -152,7 +140,7 @@ namespace ConsoleApplication
         }
         
         private string ReadSpeed(string speed)
-        {
+        {            
             switch (speed)
             {
                 case "9 m (6 c)": return "9 m (6 {s:c})";
@@ -161,43 +149,56 @@ namespace ConsoleApplication
                 case "6 m (4 c)3": return "6 m (4 {s:c})<sup>[[Tableau récapitulatif des armures#NOTE3|3]]</sup>";
                 case "4,50 m (3 c)3": return "4,50 m (3 {s:c})<sup>[[Tableau récapitulatif des armures#NOTE3|3]]</sup>";
                 case "3 m (2 c)3": return "3 m (2 {s:c})<sup>[[Tableau récapitulatif des armures#NOTE3|3]]</sup>";
+                case "3 m (2 c)": return "3 m (2 {s:c})";
                 case "—": return "—";
                 default: throw new NotSupportedException($"Vitesse de deplacement non reconnue : {speed}");                
             }
         }
         
-        class Row
-        {            
-            public string Name { get; set; }
-            public string WikiLink { get; set; }
-            public string Type { get; set; }
-            public string Price { get; set; }
-            public string Bonus { get; set; }
-            public string DexMax { get; set; }
-            public string Malus { get; set; }
-            public string SpellMiss { get; set; }            
-            public string Speed9 { get; set; }
-            public string Speed6 { get; set; }
-            public string Weight { get; set; }
-            
-            public static Row FromCells(string[] cells)
+        private string ReadNameNote(string note)
+        {
+            switch (note)
             {
-                var i = 0;
-                return new Row
-                {
-                  Name = cells[i++],
-                  WikiLink = cells[i++],
-                  Type = cells[i++],
-                  Price = cells[i++],
-                  Bonus = cells[i++],
-                  DexMax = cells[i++],
-                  Malus = cells[i++],
-                  SpellMiss = cells[i++],
-                  Speed9 = cells[i++],
-                  Speed6 = cells[i++],
-                  Weight = cells[i++]                    
-                };
+                case "4": return "<sup>[[#NOTE4|4]]</sup>";
+                default: return null;
             }
         }
+        
+        private string ReadSpellMissNote(string note)
+        {
+            switch (note)
+            {
+                case "5": return "([[#NOTE5|5]])";
+                default: return null;
+            }
+        }
+        
+        private string ReadSpeedNote(string note)
+        {
+            switch (note)
+            {
+                case "2": return "<sup>[[#NOTE2|2]]</sup>";
+                case "3": return "<sup>[[#NOTE3|3]]</sup>";
+                default: return null;
+            }
+        }
+    }
+        
+    public class ArmuresRow : SheetRow
+    {            
+        public string Name { get; set; }
+        public string WikiLink { get; set; }
+        public string Type { get; set; }
+        public string Price { get; set; }
+        public string Bonus { get; set; }
+        public string DexMax { get; set; }
+        public string Malus { get; set; }
+        public string SpellMiss { get; set; }            
+        public string Speed9 { get; set; }
+        public string Speed6 { get; set; }
+        public string Weight { get; set; }
+        public string Special { get; set; }
+        public string Source { get; set; }
+        public string Note { get; set; }
     }
 }
