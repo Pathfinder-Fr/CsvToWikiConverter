@@ -4,10 +4,13 @@ Ce programme permet de convertir les onglets du [fichier tableau google des équ
 
 # Installation
 
-Ce programme nécessite d'installer tout d'abord l'outil [dotnet](http://dotnet.github.io/getting-started/).
+Ce programme nécessite d'installer tout d'abord l'outil [dotnet](http://dotnet.github.io/getting-started/) pour votre système d'exploitation.
 
-Une fois l'outil installé, il faut lancer la commande `dotnet restore` depuis le dossier du projet pour installer les librairies nécessaires.
+Ensuite vous devez télécharger le contenu du projet.
+Vous pouvez par exmeple utiliser le bouton "Download ZIP" situé en haut à droite de cette page, puis décompresser les fichiers dans un dossier de votre choix.
+Si vous devez mettre à jour le programme, il vous suffit de retélécharger le zip et écraser votre ancienne installation.
 
+Une fois l'outil dotnet installé et le projet décompressé, il faut lancer la commande `dotnet restore` depuis le dossier du projet pour installer les librairies nécessaires.
 Sous windows, vous pouvez simplement exécuter le script `installation.bat`.
 
 Cette manipulation n'est à faire qu'une seule fois.
