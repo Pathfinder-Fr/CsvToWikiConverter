@@ -5,5 +5,4 @@
 bin/
 obj/
 project.lock.json
-*.tsv
-*.txt
+armures.txt

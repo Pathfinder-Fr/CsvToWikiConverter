@@ -4,7 +4,7 @@ using System.Net.Http;
 
 namespace ConsoleApplication
 {
-    public abstract class SheetReader<T> where T : SheetRow
+    public abstract class SheetReader<T> where T : class
     {
         protected readonly ILog log;
         
@@ -18,16 +18,24 @@ namespace ConsoleApplication
             this.@out = new FileOut(fileName);
         }
         
+        /// <summary>
+        /// Obtient l'identifiant de l'onglet du fichier google spreadsheet à utiliser.
+        /// </summary>
+        protected abstract string SheetId { get; } 
+        
+        /// <summary>
+        /// A partir d'une ligne du fichier CSV, renvoie la réprésentation objet.
+        /// </summary>
         protected abstract T FromLine(string line);
         
-        protected abstract void ReadRow(T row, T previousRow, bool altRow, IOut @out);        
+        protected abstract void ReadRow(T row, T previousRow, ref bool altRow, IOut @out);
         
         public void Run()
         {
             log.WriteLine($"Conversion du tableau {fileName} au format wiki");
             
             log.WriteLine("Téléchargement du contenu");
-            var content = this.Download("1568769969");
+            var content = this.Download(this.SheetId);
             
             var lines = content.Split(new [] {"\r", "\n"}, StringSplitOptions.RemoveEmptyEntries);            
             
@@ -42,7 +50,7 @@ namespace ConsoleApplication
                 var row = this.FromLine(line);
                 
                 // conversion format wiki
-                this.ReadRow(row, previousRow, altRow, @out);
+                this.ReadRow(row, previousRow, ref altRow, @out);
                 
                 // passage ligne suivante
                 previousRow = row;
@@ -56,8 +64,8 @@ namespace ConsoleApplication
         
         protected string Download(string sheetId)
         {
-            var client = new HttpClient();
-            return client.GetStringAsync($"https://docs.google.com/spreadsheets/d/1vl-MbogN6skGg7qnP83qX55zPVXb1KlzZLJo8ahgkqY/export?exportFormat=csv&gid={sheetId}").Result;
+            var client = new HttpClient();            
+            return client.GetStringAsync($"https://docs.google.com/spreadsheets/d/1MZ5Nz424T1CRSNi00Ky7jG-TrcKZeCYgqoClRjTfaXQ/export?exportFormat=csv&gid={sheetId}").Result;
         }        
         
         protected static string[] ReadCsvCells(string line, int cellCount)

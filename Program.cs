@@ -8,7 +8,7 @@ namespace ConsoleApplication
     {        
         public static void Main(string[] args)
         {
-            Console.WriteLine("Outil de conversion des tableaux Google au format WIKI");
+            Console.WriteLine("Outil de conversion des tableaux google au format WIKI");
             Console.WriteLine("======================================================");
             Console.WriteLine(" ");
             
@@ -40,8 +40,8 @@ namespace ConsoleApplication
         
         private static void ShowHelp()
         {
-            Console.WriteLine("Liste des fichiers supportes :");
-            Console.WriteLine("- Armures : Fichier des armures");
+            Console.WriteLine("Liste des tableaux supportés :");
+            Console.WriteLine("- Armures : fichier des armures");
         }
     }
     
@@ -81,7 +81,7 @@ namespace ConsoleApplication
         
         public FileOut(string fileName)
         {
-            this.fileStream = File.OpenWrite(fileName);
+            this.fileStream = new FileStream(fileName, FileMode.Create);
             this.writer = new StreamWriter(this.fileStream);
         }
         

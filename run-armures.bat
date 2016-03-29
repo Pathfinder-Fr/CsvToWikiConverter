@@ -1,1 +1,1 @@
-dotnet run Armures
+dotnet run armures

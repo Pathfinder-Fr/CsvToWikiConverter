@@ -1,4 +1,5 @@
 using System;
+using System.Text.RegularExpressions;
 
 namespace ConsoleApplication
 {
@@ -8,6 +9,8 @@ namespace ConsoleApplication
             : base("armures.txt", log)
         {
         }
+        
+        protected override string SheetId { get { return "0"; } }
         
         protected override ArmuresRow FromLine(string line)
         {
@@ -32,7 +35,7 @@ namespace ConsoleApplication
             };            
         }
         
-        protected override void ReadRow(ArmuresRow row, ArmuresRow previousRow, bool altRow, IOut @out)
+        protected override void ReadRow(ArmuresRow row, ArmuresRow previousRow, ref bool altRow, IOut @out)
         {
             // si le type d'armure change, alors on écrit le séparateur de types
             if (previousRow?.Type != row.Type)
@@ -76,7 +79,7 @@ namespace ConsoleApplication
             
             // lien wiki + nom
             @out.Write("| &emsp;[[");
-            @out.Write(this.ReadWikiLink(row.WikiLink));
+            @out.Write(this.ReadWikiLink(row.WikiLink, row.Name));
             @out.Write("|");
             @out.Write(row.Name);
             @out.Write("]]");
@@ -121,8 +124,22 @@ namespace ConsoleApplication
             @out.WriteLine();
         }
         
-        private string ReadWikiLink(string wikiLink)
+        private string ReadWikiLink(string wikiLink, string name)
         {
+            if (string.IsNullOrEmpty(wikiLink))
+            {
+                // pas de lien indiqué : on se base sur le nom en appliquant la règle standard :
+                // - suppression des caractères spéciaux et des espaces
+                // - suppression des mots entre parenthèses
+                var cleanedName = Regex.Replace(name, @"[ '-]", @"");
+                if (cleanedName.IndexOf('(') != -1)
+                {
+                    cleanedName = cleanedName.Substring(0, cleanedName.IndexOf('('));
+                }
+                
+                return "Descriptions individuelles des armures#" + cleanedName;
+            }
+            
             if (wikiLink.StartsWith("#"))
             {
                // cas d'un lien commençant par un #, il s'agit d'une version "courte" qui doit pointer vers la page "Description individuelle des armures", on l'ajoute
@@ -184,7 +201,7 @@ namespace ConsoleApplication
         }
     }
         
-    public class ArmuresRow : SheetRow
+    public class ArmuresRow
     {            
         public string Name { get; set; }
         public string WikiLink { get; set; }
