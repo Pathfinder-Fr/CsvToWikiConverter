@@ -46,23 +46,23 @@ namespace ConsoleApplication
                 switch (row.Type)
                 {
                     case "Légère":
-                        @out.WriteLine("| COLSPAN=\"9\" | {s:Reference|LEGERES}'''ARMURES LÉGÈRES'''");
+                        @out.WriteLine("| COLSPAN=\"10\" | {s:Reference|LEGERES}'''ARMURES LÉGÈRES'''");
                         break;
                         
                     case "Intermédiaire":
-                        @out.WriteLine("| COLSPAN=\"9\" | {s:Reference|INTERMEDIAIRES}'''ARMURES INTERMÉDIAIRES'''");
+                        @out.WriteLine("| COLSPAN=\"10\" | {s:Reference|INTERMEDIAIRES}'''ARMURES INTERMÉDIAIRES'''");
                         break;
                     
                     case "Lourde":
-                        @out.WriteLine("| COLSPAN=\"9\" | {s:Reference|LOURDES}'''ARMURES LOURDES'''");
+                        @out.WriteLine("| COLSPAN=\"10\" | {s:Reference|LOURDES}'''ARMURES LOURDES'''");
                         break;
                     
                     case "Bouclier":
-                        @out.WriteLine("| COLSPAN=\"9\" | {s:Reference|BOUCLIER}'''BOUCLIERS'''");
+                        @out.WriteLine("| COLSPAN=\"10\" | {s:Reference|BOUCLIER}'''BOUCLIERS'''");
                         break;
                     
                     case "Suppléments":
-                        @out.WriteLine("| COLSPAN=\"9\" | '''SUPPLÉMENTS'''");
+                        @out.WriteLine("| COLSPAN=\"10\" | '''SUPPLÉMENTS'''");
                         break;
                 }
             }
@@ -78,14 +78,22 @@ namespace ConsoleApplication
             }
             
             // lien wiki + nom
-            @out.Write("| &emsp;[[");
+            @out.Write("| &emsp;");
+            if (row.Special == "orientale") {
+                @out.Write("''");
+            }
+            @out.Write("[[");
             @out.Write(this.ReadWikiLink(row.WikiLink, row.Name));
             @out.Write("|");
             @out.Write(row.Name);
             @out.Write("]]");
+            if (row.Special == "orientale") {
+                @out.Write("''");
+            }
             @out.Write(this.ReadNameNote(row.Note));
-            @out.Write(" || ");
             
+            @out.Write(" || ");
+                        
             // prix
             @out.Write(row.Price);
             @out.Write(" || ");
@@ -119,6 +127,15 @@ namespace ConsoleApplication
             
             // poids
             @out.Write(row.Weight);
+            @out.Write(" || ");
+            
+            // source
+            if (!string.IsNullOrEmpty(row.Source))
+                @out.Write(row.Source);
+            else
+            {
+                @out.Write("&nbsp;");
+            }            
             
             // passage ligne suivante
             @out.WriteLine();
