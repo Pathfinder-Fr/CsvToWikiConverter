@@ -79,6 +79,12 @@ namespace ConsoleApplication
             
             for (int i = 0; i <= line.Length; i++)
             {
+                if (cellIndex >= cells.Length)
+                {
+                    // plus de place pour stocker les éléments, on arrête
+                    break;
+                }
+                
                 var c = (i < line.Length) ? line[i] : '\n';
                 var c1 = (i < line.Length - 1) ? line[i+1] : '\n';
                 
