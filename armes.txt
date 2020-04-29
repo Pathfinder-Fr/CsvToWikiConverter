@@ -1,0 +1,465 @@
+{s:Reference|TABCOURANTES}
+=== Les armes courantes ===
+<center>
+{| CLASS="tablo" style="width:100%"
+|+ Tableau récapitulatif des armes courantes
+|- CLASS="titre"
+| [[Caractéristiques des armes#ARMECOURANTE|Armes courantes]] || Prix || Dégâts (P) || Dégâts (M) || [[Caractéristiques des armes#Critique_6|Critique]] || [[Caractéristiques des armes#Facteur_de_portée_7|Facteur de portée]] || Poids <sup>([[Tableau récapitulatif des armes#NOTE1|1]])</sup> || [[Caractéristiques des armes#Type_9|Type]] <sup>([[Tableau récapitulatif des armes#NOTE2|2]])</sup> || Spécial
+|- CLASS="premier"
+| COLSPAN="9" | '''COMBAT À MAINS NUES''' 
+|-
+| &emsp;[[Descriptions individuelles des armes#Combatàmainsnues|Combat à mains nues]] || — || 1d2 || 1d3 || ×2 || — || — || C ||  [[Caractéristiques des armes#NONLETAL|Non létal]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Coupdepoing|Coup de poing]] || 1 || 1d2 || 1d3 || ×2 || — || 0,5 kg || C ||  [[Caractéristiques des armes#MOINE|Moine]], [[Descriptions individuelles des armes#Coupdepoing|Voir texte]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMELEGERE|LÉGÈRE]]'''{s:Reference|ARMESCOURANTESLEGERES}
+|-
+| &emsp;[[Descriptions individuelles des armes#Balaicaudalkobold|Balai caudal]] ([[kobold (race)|kobold]]) || 7 || 1d4 || 1d6 || ×2 || — || 1,5 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Ceste|Ceste]] || 5 || 1d3 || 1d4 || 19-20/×2 || — || 0,5 kg || C ou P ||  [[Caractéristiques des armes#MOINE|Moine]], [[Descriptions individuelles des armes#Ceste|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Couteaudecuivre|Couteau de cuivre]] || 2 || 1d3 || 1d4 || 19-20/×2 || 3 m (2 c) || 0,5 kg || P ou T ||  [[Caractéristiques des armes#FRAGILE|Fragile]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Crochetdepirate|Crochet de pirate]] || 10 || 1d3 || 1d4 || ×2 || — || 0,5 kg || T ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Dague|Dague]] || 2 || 1d3 || 1d4 || 19-20/×2 || 3 m (2 c) || 0,5 kg || P ou T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Daguecoupdepoing|Dague coup-de-poing]] || 2 || 1d3 || 1d4 || ×3 || — || 0,5 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Gantelet|Gantelet]] || 2 || 1d2 || 1d3 || ×2 || — || 0,5 kg || C || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Ganteletclouté|Gantelet clouté]] || 5 || 1d3 || 1d4 || ×2 || — || 0,5 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Goupillondecombat|Goupillon de combat]] || 5 || 1d4 || 1d6 || ×2 || — || 2 kg || C ||  [[Descriptions individuelles des armes#Goupillondecombat|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Lamecaudale|Lame caudale]] ([[kobold (race)|kobold]]) || 3 || 1d6 || 1d8 || 19-20/×2 || — || 1 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Longfouetcaudal|Long fouet caudal]] ([[kobold (race)|kobold]]) || 15 || 1d4 || 1d6 || ×2 || — || 0,5 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Massedarmeslégère|Masse d'armes légère]] || 5 || 1d4 || 1d6 || ×2 || — || 2 kg || C || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Pieucaudal|Pieu caudal]] ([[kobold (race)|kobold]]) || 3 || 1d6 || 1d8 || ×3 || — || 1 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Pieudebois|Pieu de bois]] || — || 1d3 || 1d4 || ×2 || 3 m (2 c) || 0,5 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Serpe|Serpe]] || 6 || 1d4 || 1d6 || ×2 || — || 1 kg || T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMEAUNEMAIN|À UNE MAIN]]'''{s:Reference|ARMESCOURANTESUNEMAIN}
+|-
+| &emsp;[[Descriptions individuelles des armes#Épieu|Épieu]] || 1 || 1d4 || 1d6 || ×2 || 6 m (4 c) || 1,5 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Gourdin|Gourdin]] || — || 1d4 || 1d6 || ×2 || 3 m (2 c) || 1,5 kg || C || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Gourdinmere|Gourdin mere]] || 2 || 1d3 || 1d4 || ×2 || — || 1 kg || C ou P ||  [[Caractéristiques des armes#FRAGILE|Fragile]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Massed’armeslourde|Masse d’armes lourde]] || 12 || 1d6 || 1d8 || ×2 || — || 4 kg || C || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Morgenstern|Morgenstern]] || 8 || 1d6 || 1d8 || ×2 || — || 3 kg || C et P || —
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMEADEUXMAINS|À DEUX MAINS]]'''{s:Reference|ARMESCOURANTESDEUXMAINS}
+|-
+| &emsp;[[Descriptions individuelles des armes#Baïonette|Baïonette]] || 5 || 1d4 || 1d6 || ×2 || — || 0,5 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Baïonnette|Baïonnette]] || 5 || 1d4 || 1d6 || ×2 || — || 2 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Bâton|Bâton]] || — || 1d4/1d4 || 1d6/1d6 || ×2 || — || 2 kg || C ||  [[Caractéristiques des armes#DOUBLE|Double]], [[Caractéristiques des armes#MOINE|Moine]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Lance|Lance]] || 2 || 1d6 || 1d8 || ×3 || 6 m (4 c) || 3 kg || P ||  [[Caractéristiques des armes#RECEPTION|Réception]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Lancedarrêt|Lance d'arrêt]] || 5 || 1d6 || 1d8 || ×2 || — || 4 kg || P ||  [[Caractéristiques des armes#RECEPTION|Réception]], [[Descriptions individuelles des armes#Lancedarrêt|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Pique|Pique]] || 5 || 1d6 || 1d8 || ×3 || — || 4,5 kg || P ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#RECEPTION|Réception]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Piquedabordage|Pique d'abordage]] || 8 || 1d6 || 1d8 || ×3 || — || 4,5 kg || P ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#RECEPTION|Réception]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES [[Caractéristiques des armes#ARMEADISTANCE|À DISTANCE]]'''{s:Reference|ARMESCOURANTESDISTANCE}
+|-
+| &emsp;[[Descriptions individuelles des armes#Arbalètelégère|Arbalète légère]] || 35 || 1d6 || 1d8 || 19-20/×2 || 24 m (16 c) || 2 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Arbalètelégèresousmarine|Arbalète légère sous-marine]] || 70 || 1d6 || 1d8 || 19-20/×2 || 24 m (16 c) || 2 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Arbalètelourde|Arbalète lourde]] || 50 || 1d8 || 1d10 || 19-20/×2 || 36 m (24 c) || 4 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Arbalètelourdesousmarine|Arbalète lourde sous-marine]] || 100 || 1d8 || 1d10 || 19-20/×2 || 36 m (24 c) || 4 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Fléchette|Fléchette]] || 0,5 || 1d3 || 1d4 || ×2 || 6 m (4 c) || 0,25 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Fronde|Fronde]] || — || 1d3 || 1d4 || ×2 || 15 m (10 c) || — || C || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Javeline|Javeline]] || 1 || 1d4 || 1d6 || ×2 || 9 m (6 c) || 1 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Sarbacane|Sarbacane]] || 2 || 1 || 1d2 || ×2 || 6 m (4 c) || 0,5 kg || P || —
+|}
+</center>
+
+{s:Reference|TABGUERRE}
+=== Les armes de guerre ===
+<center>
+{| CLASS="tablo" style="width:100%"
+|+ Tableau récapitulatif des armes de guerre
+|- CLASS="titre"
+| [[Caractéristiques des armes#ARMEDEGUERRE|Armes de guerre]] || Prix || Dégâts (P) || Dégâts (M) || [[Caractéristiques des armes#Critique_6|Critique]] || [[Caractéristiques des armes#Facteur_de_portée_7|Facteur de portée]] || Poids <sup>([[Tableau récapitulatif des armes#NOTE1|1]])</sup> || [[Caractéristiques des armes#Type_9|Type]] <sup>([[Tableau récapitulatif des armes#NOTE2|2]])</sup> || Spécial
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMELEGERE|LÉGÈRE]]'''{s:Reference|ARMESCOURANTESLEGERES}
+|-
+| &emsp;[[Descriptions individuelles des armes#Armureàpointes|Armure à pointes]] || +50 || 1d4 || 1d6 || ×2 || — || spécial || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Chatàneufqueues|Chat à neuf queues]] || 1 || 1d3 || 1d4 || ×2 || — || 0,5 kg || T ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#NONLETAL|Non létal]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Couteaudemer|Couteau de mer]] ([[aquatique (race)|aquatique]]) || 8 || 1d3 || 1d4 || 19-20/×2 || — || 0,5 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Couteaupapillon|Couteau papillon (2)]] || 20 || 1d3 || 1d4 || 19-20/×2 || — || 0,5 kg || T ||  [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Épéecourte|Épée courte]] || 10 || 1d4 || 1d6 || 19-20/×2 || — || 1 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Fléchettewushu|Fléchette wushu]] || 1 || 1d2 || 1d3 || ×2 || 3 m (2 c) || — || P ||  [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Gladius|Gladius]] || 15 || 1d4 || 1d6 || 19-20/×2 || — || 1,5 kg || P ou T ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Hachedabordage|Hache d'abordage]] || 6 || 1d4 || 1d6 || ×3 || — || 1,5 kg || P ou T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Hachedelancer|Hache de lancer]] || 8 || 1d4 || 1d6 || ×2 || 3 m (2 c) || 1 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Hachette|Hachette]] || 6 || 1d4 || 1d6 || ×3 || — || 1,5 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Jitte|Jitte]] || 8 || 1d4 || 1d6 || ×2 || — || 0,5 kg || C ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#MOINE|Moine]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Karambit|Karambit]] || 2 || 1d2 || 1d3 || ×3 || — || — || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Kukri|Kukri]] || 8 || 1d3 || 1d4 || 18-20/×2 || — || 1 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Lamecaudaledeshommes-rats|Lame caudale]] ([[homme-rat (race)|homme-rat]]) || 5 || 1d2 || 1d3 || 20/×2 || — || 0,5 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Lamétoile|Lamétoile]] || 24 || 1d3 || 1d4 || ×3 || 6 m (4 c) || 1,5 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Lungshuantamo|Lungshuan tamo]] || 5 || 1d3 || 1d4 || ×2 || 3 m (2 c) || 0,5 kg || P ou T ||  [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Marteauléger|Marteau léger]] || 1 || 1d3 || 1d4 || ×2 || 6 m (4 c) || 2 kg || C || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Matraque|Matraque]] || 1 || 1d4 || 1d6 || ×2 || — || 1 kg || C ||  [[Caractéristiques des armes#NONLETAL|Non-létal]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Picdeguerreléger|Pic de guerre léger]] || 4 || 1d3 || 1d4 || ×4 || — || 1,5 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Pinceaudefer|Pinceau de fer]] || 2 || 1d2 || 1d3 || ×2 || 3 m (2 c) || — || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Poidscaudal|Poids caudal]] ([[kobold (race)|kobold]]) || 1 || 1d6 || 1d68 || ×2 || — || 2 kg || C || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#rasoirdecombat|rasoir de combat]] || 8 ||  1d3 || 1d4 || 19-20/×2 || — || 0,5 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Rondache|Rondache]] || spécial || 1d2 || 1d3 || ×2 || — || spécial || C || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Rondacheàpointes|Rondache à pointes]] || spécial || 1d3 || 1d4 || ×2 || — || spécial || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Shanggou|Shang gou]] || 6 || 1d3 || 1d4 || ×2 || — || 0,5 kg || T ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]] ou  ou  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Descriptions individuelles des armes#Shanggou|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Tonfa|Tonfa]] || 1 || 1d4 || 1d6 || ×2 || — || 0,5 kg || C ||  [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#PARADE|Parade]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Tranchechien|Tranchechien]] || 8 || 1d4 || 1d6 || 19-20/×2 || — || 0,5 kg || T ||  [[Caractéristiques des armes#FRAGILE|Fragile]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Tranchechien|Tranchechien]] ([[gobelin (race)|gobelin]]) || 8 || 1d4 || 1d6 || 19-20/×2 || — || 0,5 kg || T ||  [[Caractéristiques des armes#FRAGILE|Fragile]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMEAUNEMAIN|À UNE MAIN]]'''{s:Reference|ARMESCOURANTESUNEMAIN}
+|-
+| &emsp;[[Descriptions individuelles des armes#Canneépée|Canne épée]] || 45 || 1d4 || 1d6 || ×2 || — || 2 kg || C ou P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Cimeterre|Cimeterre]] || 15 || 1d4 || 1d6 || 18-20/×2 || — || 2 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Écu|Écu]] || spécial || 1d3 || 1d4 || ×2 || — || spécial || C || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Écuàpointes|Écu à pointes]] || spécial || 1d4 || 1d6 || ×2 || — || spécial || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Épéeàneufanneaux|Épée à neuf anneaux]] || 15 || 1d6 || 1d8 || ×3 || — || 2 kg || T ||  [[Caractéristiques des armes#MOINE|Moine]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Épéelongue|Épée longue]] || 15 || 1d6 || 1d8 || 19-20/×2 || — || 2 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Fléaud’armesléger|Fléau d’armes léger]] || 8 || 1d6 || 1d8 || ×2 || — || 2,5 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Hached’armes|Hache d’armes]] || 10 || 1d6 || 1d8 || ×3 || — || 3 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Klar|Klar]] || 12 || 1d4 || 1d6 || ×2 || — || 3 kg || T ||  [[Descriptions individuelles des armes#Klar|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Marteaudeguerre|Marteau de guerre]] || 12 || 1d6 || 1d8 || ×3 || — || 2,5 kg || C || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Picdeguerrelourd|Pic de guerre lourd]] || 8 || 1d4 || 1d6 || ×4 || — || 3 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Rapière|Rapière]] || 20 || 1d4 || 1d6 || 18-20/×2 || — || 1 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Sabredabordage|Sabre d'abordage]] || 15 || 1d4 || 1d6 || 18-20/×2 || — || 2 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Sabredoubleergotdepoulet|Sabre double ergot de poulet]] || 12 || 1d4 || 1d6 || 19-20/×2 || — || 1,5 kg || T ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Scizore|Scizore]] || 20 || 1d8 || 1d10 || ×2 || — || 1,5 kg || P ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Sibat|Sibat]] || 2 || 1d4 || 1d6 || ×3 || 3 m (2 c) || 1 kg || P ou T ||  [[Caractéristiques des armes#LUTTE|Lutte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Terbutje|Terbutje]] || 5 || 1d6 || 1d8 || 19-20/×2 || — || 1 kg || T ||  [[Caractéristiques des armes#FRAGILE|Fragile]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Trident|Trident]] || 15 || 1d6 || 1d8 || ×2 || 3 m (2 c) || 2 kg || P ||  [[Caractéristiques des armes#RECEPTION|Réception]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMEADEUXMAINS|À DEUX MAINS]]'''{s:Reference|ARMESCOURANTESDEUXMAINS}
+|-
+| &emsp;[[Descriptions individuelles des armes#Bardiche|Bardiche]] || 13 || 1d8 || 1d10 || 19-20/×2 || — || 7 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#RECEPTION|Réception]], [[Descriptions individuelles des armes#Bardiche|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Becdecorbin|Bec de corbin]] || 15 || 1d8 || 1d10 || ×3 || — || 6 kg || C ou P ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#RECEPTION|Réception]], [[Descriptions individuelles des armes#Becdecorbin|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Briseterre|Briseterre]] || 40 || 1d10 || 2d6 || ×3 || — || 7 kg || C || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Cimeterreàdeuxmains|Cimeterre à deux mains]] || 75 || 1d6 || 2d4 || 18-20/×2 || — || 4 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Corsèque|Corsèque]] || 10 || 1d6 || 2d4 || ×3 || — || 6 kg || P ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Coupecheval|Coupecheval]] || 10 || 1d8 || 1d10 || ×3 || — || 6 kg || P ou T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#RECEPTION|Réception]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Coupecheval|Coupecheval]] ([[gobelin (race)|gobelin]]) || 10 || 1d8 || 1d10 || ×3 || — || 6 kg || P ou T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#RECEPTION|Réception]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Coutille|Coutille]] || 8 || 1d8 || 1d10 || ×3 || — || 5 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Crochetogre|Crochet ogre]] || 24 || 1d8 || 1d10 || ×3 || — || 5 kg || P ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Épéeàdeuxmains|Épée à deux mains]] || 50 || 1d10 || 2d6 || 19-20/×2 || — || 4 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Épéeàtriplepointeetdoubletranchant|Épée à triple pointe et double tranchant]] || 12 || 1d8 || 1d10 || ×3 || — || 7 kg || P ||  [[Caractéristiques des armes#ALLONGE|Allonge]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Faux|Faux]] || 18 || 1d6 || 2d4 || ×4 || — || 5 kg || C ou P ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Fléaud’armeslourd|Fléau d’armes lourd]] || 15 || 1d8 || 1d10 || 19-20/×2 || — || 5 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Fourchedutigre|Fourche du tigre]] || 5 || 1d6 || 1d8 || ×2 || — || 4 kg || P ou T ||  [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#RECEPTION|Réception]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Getsugasan|Getsugasan]] || 20 || 1d4/1d4 || 1d6/1d6 || ×2 || — || 6 kg || C ou P ou T ||  [[Caractéristiques des armes#DOUBLE|Double]], [[Caractéristiques des armes#MOINE|Moine]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Glaiveguisarme|Glaive-guisarme]] || 12 || 1d8 || 1d10 || ×3 || — || 5 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#RECEPTION|Réception]], [[Descriptions individuelles des armes#Glaiveguisarme|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Grandehache|Grande hache]] || 20 || 1d10 || 1d12 || ×3 || — || 6 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Guisarme|Guisarme]] || 9 || 1d6 || 2d4 || ×3 || — || 6 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Hallebarde|Hallebarde]] || 10 || 1d8 || 1d10 || ×3 || — || 6 kg || P ou T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#RECEPTION|Réception]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Lancecrochue|Lance crochue]] || 3 || 1d6 || 1d8 || ×4 || — || 5 kg || P ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Lanced’arçon|Lance d’arçon]] || 10 || 1d6 || 1d8 || ×3 || — || 5 kg || P ||  [[Caractéristiques des armes#ALLONGE|Allonge]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#MarteaudeLucerne|Marteau de Lucerne]] || 15 || 1d10 || 1d12 || ×2 || — || 6 kg || C ou P ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#RECEPTION|Réception]], [[Descriptions individuelles des armes#MarteaudeLucerne|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Massue|Massue]] || 5 || 1d8 || 1d10 || ×2 || — || 4 kg || C || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Mattock|Mattock]] || 12 || 1d6 || 2d4 || ×4 || — || 6 kg || P ||  [[Caractéristiques des armes#FRAGILE|Fragile]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Naginata|Naginata]] || 35 || 1d6 || 1d8 || ×4 || — || 4,5 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Nodachi|Nodachi]] || 60 || 1d8 || 1d10 || 18-20/×2 || — || 4 kg || P ou T ||  [[Caractéristiques des armes#RECEPTION|Réception]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Rhomphaia|Rhomphaia]] || 15 || 1d6 || 2d4 || ×3 || — || 5 kg || P ou T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#FRAGILE|Fragile]], [[Caractéristiques des armes#RECEPTION|Réception]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Sansetsukon|Sansetsukon]] || 8 || 1d8 || 1d10 || 19-20/×2 || — || 1,5 kg || C ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#PARADE|Parade]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Tepoztopili|Tepoztopili]] || 8 || 1d8 || 1d10 || 19-20/×2 || — || 4 kg || P ou T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#FRAGILE|Fragile]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Vouge|Vouge]] || 11 || 1d6 || 1d8 || ×3 || — || 5,5 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#RECEPTION|Réception]], [[Descriptions individuelles des armes#Vouge|Voir texte]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES [[Caractéristiques des armes#ARMEADISTANCE|À DISTANCE]]'''{s:Reference|ARMESCOURANTESDISTANCE}
+|-
+| &emsp;[[Descriptions individuelles des armes#Amentum|Amentum]] || — || — || — || — || 15 m (10 c) || 0,5 kg || P ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Arccourt|Arc court]] || 30 || 1d4 || 1d6 || ×3 || 18 m (12 c) || 1 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Arccourtcomposite|Arc court composite]] || 75 || 1d4 || 1d6 || ×3 || 21 m (14 c) || 1 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Arclong|Arc long]] || 75 || 1d6 || 1d8 || ×3 || 30 m (20 c) || 1,5 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Arclongcomposite|Arc long composite]] || 100 || 1d6 || 1d8 || ×3 || 33 m (22 c) || 1,5 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Atlatl|Atlatl]] || 2 || 1d4 || 1d6 || ×2 || 15 m (10 c) || 1 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Chakram|Chakram]] || 1 || 1d6 || 1d8 || ×2 || 9 m (6 c) || 0,5 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Fléchettedechoc|Fléchette de choc]] ([[svirfneblin (race)|svirfneblin]]) || 100 || 1d3 || 1d4 || ×2 || 6 m (4 c) || 0,25 kg || P ||  [[Descriptions individuelles des armes#Fléchettedechoc|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Hungamunga|Hunga munga]] || 4 || 1d4 || 1d6 || ×2 || 4,5 m (3 c) || 1,5 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Lanceflèche|Lance-flèche ou tube à flèches]] || 3 || 1d3 || 1d4 || ×2 || 12 m (8 c) || 0,25 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Pilum|Pilum]] || 5 || 1d6 || 1d8 || ×2 || 9 m (6 c) || 2,5 kg || P ||  [[Descriptions individuelles des armes#Pilum|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Sableempoisonné|Sable empoisonné]] || 1 || spécial || spécial || — || — || 0,5 kg || — ||  [[Descriptions individuelles des armes#Sableempoisonné|Voir texte]]
+|}
+</center>
+
+{s:Reference|TABEXOTIQUES}
+=== Les armes exotiques ===
+<center>
+{| CLASS="tablo" style="width:100%"
+|+ Tableau récapitulatif des armes exotiques
+|- CLASS="titre"
+| [[Caractéristiques des armes#ARMEEXOTIQUE|Armes exotiques]] || Prix || Dégâts (P) || Dégâts (M) || [[Caractéristiques des armes#Critique_6|Critique]] || [[Caractéristiques des armes#Facteur_de_portée_7|Facteur de portée]] || Poids <sup>([[Tableau récapitulatif des armes#NOTE1|1]])</sup> || [[Caractéristiques des armes#Type_9|Type]] <sup>([[Tableau récapitulatif des armes#NOTE2|2]])</sup> || Spécial
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMELEGERE|LÉGÈRE]]'''{s:Reference|ARMESCOURANTESLEGERES}
+|-
+| &emsp;[[Descriptions individuelles des armes#Aklys|Aklys]] || 5 || 1d6 || 1d8 || ×2 || 6 m (4 c) || 1 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Casquebéliernain|Casque bélier nain]] ([[nain|nain]]) || 20 || 1d3 || 1d4 || ×2 || — || 5 kg || C ||  [[Descriptions individuelles des armes#Casquebéliernain|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Daguebriseépée|Dague brise-épée]] || 10 || 1d3 || 1d4 || ×2 || — || 1,5 kg || P ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Descriptions individuelles des armes#Daguebriseépée|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Danbong|Dan bong]] || 0,1 || 1d2 || 1d3 || 19-20/×2 || 3 m (2 c) || — || C ||  [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#PARADE|Parade]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Emeici|Emeici]] || 3 || 1d2 || 1d3 || 19-20/×2 || — || — || P ||  [[Caractéristiques des armes#MOINE|Moine]], [[Descriptions individuelles des armes#Emeici|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Éventaildecombat|Éventail de combat]] || 5 || 1d3 || 1d4 || ×3 || — || — || P ou T ||  [[Caractéristiques des armes#DIVERSION|Diversion]], [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Fouetscorpion|Fouet scorpion]] || 5 || 1d3 || 1d4 || ×2 || — || 1,5 kg || T ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Hachedepoing|Hache de poing]] || 9 || 1d4 || 1d6 || ×3 || — || 1 kg || T ||  [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Kama|Kama]] || 2 || 1d4 || 1d6 || ×2 || — || 1 kg || T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#MOINE|Moine]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Madu|Madu (acier)]] || 40 || 1d3 || 1d4 || ×2 || — || 3 kg || P ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Madu|Madu (cuir)]] || 40 || 1d3 || 1d4 || ×2 || — || 2,5 kg || P ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Nunchaku|Nunchaku]] || 2 || 1d4 || 1d6 || ×2 || — || 1 kg || C ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Pata|Pata]] || 14 || 1d4 || 1d6 || ×3 || — || 1,5 kg || P ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Quadrens|Quadrens]] || 8 || 1d4 || 1d6 || 19-20/×2 || — || 1 kg || P ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Sai|Sai]] || 1 || 1d3 || 1d4 || ×2 || — || 0,5 kg || C ou P ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#MOINE|Moine]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Siangham|Siangham]] || 3 || 1d4 || 1d6 || ×2 || — || 0,5 kg || P ||  [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Sica|Sica]] || 10 || 1d4 || 1d6 || ×2 || — || 1 kg || P ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#tekko-kagi|Tekko-kagi (griffe de fer)]] || 2 || 1d2 || 1d3 || ×2 || — || — || P ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Descriptions individuelles des armes#tekko-kagi|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Wakizashi|Wakizashi]] || 35 || 1d4 || 1d6 || 18-20/×2 || — || 1 kg || P ou T ||  [[Caractéristiques des armes#MORTELLE|Mortelle]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMEAUNEMAIN|À UNE MAIN]]'''{s:Reference|ARMESCOURANTESUNEMAIN}
+|-
+| &emsp;[[Descriptions individuelles des armes#Bâtondeflind|Bâton de flind]] ([[gnoll|gnoll]]) || 9 || 1d6 || 1d8 || ×2 || — || 3 kg || C ou P ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Épéebâtarde|Épée bâtarde]] || 35 || 1d8 || 1d10 || 19-20/×2 || — || 3 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Épéededuel|Épée de duel]] || 20 || 1d6 || 1d8 || 19-20/×2 || — || 1,5 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Épéedutemple|Épée du temple]] || 30 || 1d6 || 1d8 || 19-20/×2 || — || 1,5 kg || T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Épéerhoka|Épée rhoka]] || 25 || 1d6 || 1d8 || 18-20/×2 || — || 2 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Falcata|Falcata]] || 18 || 1d6 || 1d8 || 19-20/×2 || — || 2 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Fouet|Fouet]] || 1 || 1d2 || 1d3 || ×2 || — || 1 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#NONLETAL|non-létal]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Fouetenneufparties|Fouet en neuf parties]] || 8 || 1d6 || 1d8 || 19-20/×2 || — || 1,5 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DIVERSION|Diversion]], [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#PARADE|Parade]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Grandterbutje|Grand terbutje]] || 12 || 1d8 || 1d10 || 19-20/×2 || — || 2 kg || T ||  [[Caractéristiques des armes#FRAGILE|Fragile]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Hachecrochue|Hache crochue]] || 20 || 1d6 || 1d8 || ×3 || — || 3,5 kg || T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Hachedarmesnainedouble|Hache d'armes naine double]] ([[nain|nain]]) || 60 || 1d8 || 1d10 || ×3 || — || 6 kg || T ||  [[Descriptions individuelles des armes#Hachedarmesnainedouble|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Hachedeguerrenaine|Hache de guerre naine]] || 30 || 1d8 || 1d10 || ×3 || — || 4 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Katana|Katana]] || 50 || 1d6 || 1d8 || 18-20/×2 || — || 3 kg || T ||  [[Caractéristiques des armes#MORTELLE|Mortelle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Khopesh|Khopesh]] || 20 || 1d6 || 1d8 || 19-20/×2 || — || 4 kg || T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Sabredentelé|Sabre dentelé]] || 35 || 1d6 || 1d8 || 19-20/×2 || — || 1 kg || T || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Shotel|Shotel]] || 30 || 1d6 || 1d8 || ×3 || — || 1,5 kg || P ||  [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Taiaha|Taiaha]] || 10 || 1d8/1d4 || 1d10/1d6 || x2/x3 || — || 4 kg || C ou P ||  [[Caractéristiques des armes#DOUBLE|Double]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Urumi|Urumi]] || 30 || 1d6 || 1d8 || 18-20/×2 || — || 3 kg || T ||  [[Caractéristiques des armes#DIVERSION|Diversion]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Wahaika|Wahaika]] || 3 || 1d4 || 1d6 || ×2 || 3 m (2 c) || 1,5 kg || C ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES DE [[Caractéristiques des armes#ARMEDECORPSACORPS|CORPS À CORPS]] [[Caractéristiques des armes#ARMEADEUXMAINS|À DEUX MAINS]]'''{s:Reference|ARMESCOURANTESDEUXMAINS}
+|-
+| &emsp;[[Descriptions individuelles des armes#Bâtonauxdeuxkatanas|Bâton aux deux katanas]] || 50 || 1d4/1d4 || 1d6/1d6 || ×3 || — || 3 kg || C ou T ||  [[Caractéristiques des armes#DOUBLE|Double]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Bô|Bô]] || 1 || 1d4 || 1d6 || ×2 || — || 1,5 kg || C ||  [[Caractéristiques des armes#DOUBLE|Double]], [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#PARADE|Parade]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Chaîneàdeuxkamas|Chaîne à deux kamas]] || 8 || 1d4/1d4 || 1d6/1d6 || ×2 || — || 2 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DOUBLE|Double]], [[Caractéristiques des armes#MOINE|Moine]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Chaînecloutée|Chaîne cloutée]] || 25 || 1d6 || 2d4 || ×2 || — || 5 kg || P ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Doublelame|Double-lame]] || 100 || 1d6/1d6 || 1d8/1d8 || 19-20/×2 || — || 5 kg || T ||  [[Caractéristiques des armes#DOUBLE|Double]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Écharpetranchante|Écharpe tranchante]] || 12 || 1d4 || 1d6 || ×2 || — || 1 kg || T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Épéeàseptbranches|Épée à sept branches]] || 50 || 1d8 || 1d10 || ×3 || — || 3,5 kg || T ||  [[Caractéristiques des armes#DESARMEMENT|Désarmement]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Fléaudouble|Fléau double]] || 90 || 1d6/1d6 || 1d8/1d8 || ×2 || — || 5 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#DOUBLE|Double]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Gaffedabordage|Gaffe d'abordage]] || 8 || 1d4/1d4 || 1d6/1d6 || ×2 || — || 4 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DOUBLE|Double]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Hachedoubleorque|Hache double orque]] || 60 || 1d6/1d6 || 1d8/1d8 || ×3 || — || 7,5 kg || T ||  [[Caractéristiques des armes#DOUBLE|Double]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Hachenaineàlongmanche|Hache naine à long manche]] ([[nain|nain]]) || 50 || 1d10 || 1d12 || ×3 || — || 7 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Happevilain|Happe-vilain]] || 15 || 1 || 1d2 || — || — || 5 kg || P ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Descriptions individuelles des armes#Happevilain|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Harpon|Harpon]] || 5 || 1d6 || 1d8 || ×3 || 3 m (2 c) || 8 kg || P ||  [[Caractéristiques des armes#FRAGILE|Fragile]], [[Caractéristiques des armes#LUTTE|Lutte]], [[Descriptions individuelles des armes#Harpon|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Kusarigama|Kusarigama]] || 12 || 1d2/1d4 || 1d3/1d6 || ×2 || — || 1,5 kg || C ou T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DOUBLE|Double]], [[Caractéristiques des armes#LUTTE|Lutte]], [[Caractéristiques des armes#MOINE|Moine]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Kyoketsushoge|Kyoketsu shoge]] || 6 || 1d3 || 1d4 || ×2 || 6 m (4 c) || 0,5 kg || P ou T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#DESARMEMENT|Désarmement]], [[Caractéristiques des armes#LUTTE|Lutte]], [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#|]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Lameelfiqueincurvée|Lame elfique incurvée]] || 80 || 1d8 || 1d10 || 18-20/×2 || — || 3,5 kg || T || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Lamevolante|Lame volante]] || 40 || 1d10 || 1d12 || ×3 || — || 6 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Lanceàchaîne|Lance à chaîne]] || 15 || 1d4/1d4 || 1d6/1d6 || ×2 || — || 6,5 kg || P et T ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Marteaudeguerrenainàlongmanche|Marteau de guerre nain à long manche]] ([[nain|nain]]) || 70 || 1d10 || 2d6 || ×3 || — || 10 kg || T ||  [[Caractéristiques des armes#ALLONGE|Allonge]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Marteaumétéore|Marteau météore]] || 10 || 1d6 || 1d8 || ×2 || — || 5 kg || C ||  [[Caractéristiques des armes#ALLONGE|Allonge]], [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Marteaupioletgnome|Marteau-piolet gnome]] || 20 || 1d6/1d4 || 1d8/1d6 || ×3/×4 || — || 3 kg || C ou P ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#DOUBLE|Double]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Tetsubo|Tetsubo]] || 20 || 1d8 || 1d10 || ×4 || — || 5 kg || C || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Urgroshnain|Urgrosh nain]] || 50 || 1d6/1d4 || 1d8/1d6 || ×3 || — || 6 kg || P ou T ||  [[Caractéristiques des armes#DOUBLE|Double]], [[Caractéristiques des armes#RECEPTION|Réception]]
+|- CLASS="premier"
+| COLSPAN="9" | '''ARMES [[Caractéristiques des armes#ARMEADISTANCE|À DISTANCE]]'''{s:Reference|ARMESCOURANTESDISTANCE}
+|-
+| &emsp;[[Descriptions individuelles des armes#Arbalètedepoing|Arbalète de poing]] || 100 || 1d3 || 1d4 || 19-20/×2 || 9 m (6 c) || 1 kg || P || —
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Arbalètedepoingàrépétition|Arbalète de poing à répétition]] || 800 || 1d3 || 1d4 || 19-20/×2 || 9 m (6 c) || 2 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Arbalètedouble|Arbalète double]] || 300 || 1d6 || 1d8 || 19-20/×2 || 24 m (16 c) || 9 kg || P ||  [[Descriptions individuelles des armes#Arbalètedouble|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Arbalètelégèreàrépétition|Arbalète légère à répétition]] || 250 || 1d6 || 1d8 || 19-20/×2 || 24 m (16 c) || 3 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Arbalètelégèredesclavagiste|Arbalète légère d'esclavagiste]] ([[duergar (race)|duergar]]) || 250 || 1d3 || 1d4 || 19-20/voir carreau bolas || 12 m (8 c) || 3 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#NONLETAL|Non-létal]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Arbalètelourdeàrépétition|Arbalète lourde à répétition]] || 400 || 1d8 || 1d10 || 19-20/×2 || 36 m (24 c) || 6 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Arbalètelourdedesclavagiste|Arbalète lourde d'esclavagiste]] ([[duergar (race)|duergar]]) || 400 || 1d6 || 1d8 || 19-20/voir carreau bolas || 24 m (16 c) || 6 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#NONLETAL|Non-létal]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Bolas|Bolas]] || 5 || 1d3 || 1d4 || ×2 || 3 m (2 c) || 1 kg || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#NONLETAL|Non-létal]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Bolastribaux|Bolas tribaux]] || 15 || 1d3 || 1d4 || ×2 || 3 m (2 c) || 1 kg || C et P ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Boomerang|Boomerang]] || 3 || 1d4 || 1d6 || ×2 || 9 m (6 c) || 1,5 kg || C ||  [[Descriptions individuelles des armes#Boomerang|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Bouclierdelancer|Bouclier de lancer]] || +50 || 1d4 || 1d6 || ×2 || 6 m (4 c) || — || C ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Caractéristiques des armes#SPECTACLE|Spectacle]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Filet|Filet]] || 20 || — || — || — || 3 m (2 c) || 3 kg || — ||  [[Descriptions individuelles des armes#Filet|Voir texte]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Filetpiégeur|Filet de barbelés]] ([[strix (race)|strix]]) || 30 || — || — || — || 3 m (2 c) || 5 kg || P ||  [[Caractéristiques des armes#CROCENJAMBE|Croc-en-jambe]], [[Descriptions individuelles des armes#Filetpiégeur|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Fustibalehalfelin|Fustibale halfelin ou bâton de jet halfelin]] || 20 || 1d6 || 1d8 || ×3 || 24 m (16 c) || 1,5 kg || C || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Grappin|Grappin]] || 6 || 1d4 || 1d6 || ×2 || 3 m (2 c) || 7 kg || P ||  [[Caractéristiques des armes#LUTTE|Lutte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Kestros|Kestros]] || 1 || 1d6 || 1d8 || ×3 || 15 m (10 c) || 0,5 kg || P || —
+|-
+| &emsp;[[Descriptions individuelles des armes#Lasso|Lasso]] || 0,1 || — || — || — || — || 2,5 kg || — ||  [[Descriptions individuelles des armes#Lasso|Voir texte]]
+|- CLASS="alt"
+| &emsp;[[Descriptions individuelles des armes#Shengbiao|Sheng biao]] || 1 || 1d3 || 1d4 || ×2 || 6 m (4 c) || — || P ||  [[Caractéristiques des armes#DIVERSION|Diversion]], [[Caractéristiques des armes#MOINE|Moine]], [[Caractéristiques des armes#PARADE|Parade]]
+|-
+| &emsp;[[Descriptions individuelles des armes#Shuriken|Shuriken (5)]] || 1 || 1 || 1d2 || ×2 || 3 m (2 c) || 0,25 kg || P ||  [[Caractéristiques des armes#MOINE|Moine]]
+|}
+</center>

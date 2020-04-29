@@ -7,67 +7,79 @@ namespace ConsoleApplication
     public abstract class SheetReader<T> where T : class
     {
         protected readonly ILog log;
-        
+
         private readonly string fileName;
         private readonly IOut @out;
-        
+
         protected SheetReader(string fileName, ILog log = null)
         {
             this.fileName = fileName;
             this.log = log ?? new ConsoleLog();
             this.@out = new FileOut(fileName);
         }
-        
+
         /// <summary>
         /// Obtient l'identifiant de l'onglet du fichier google spreadsheet à utiliser.
         /// </summary>
-        protected abstract string SheetId { get; } 
-        
+        protected abstract string SheetId { get; }
+
         /// <summary>
         /// A partir d'une ligne du fichier CSV, renvoie la réprésentation objet.
         /// </summary>
         protected abstract T FromLine(string line);
-        
+
         protected abstract void ReadRow(T row, T previousRow, ref bool altRow, IOut @out);
-        
+
+        protected virtual void WriteEndTable(IOut @out)
+        {
+            @out.WriteLine("|}");
+            @out.WriteLine("</center>");
+        }
+
         public void Run()
         {
             log.WriteLine($"Conversion du tableau {fileName} au format wiki");
-            
+
             log.WriteLine("Téléchargement du contenu");
             var content = this.Download(this.SheetId);
-            
-            var lines = content.Split(new [] {"\r", "\n"}, StringSplitOptions.RemoveEmptyEntries);            
-            
+
+            var lines = content.Split(new[] { "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+
             T previousRow = null;
             var altRow = false;
             var count = 0;
-            
-            log.WriteLine("Demarrage de la conversion des lignes...");            
+
+            log.WriteLine("Demarrage de la conversion des lignes...");
             foreach (var line in lines.Skip(1))
             {
                 // lecture ligne
                 var row = this.FromLine(line);
-                
+
                 // conversion format wiki
                 this.ReadRow(row, previousRow, ref altRow, @out);
-                
+
                 // passage ligne suivante
                 previousRow = row;
                 altRow = !altRow;
                 count++;
             }
-            
+
+            if (count > 0)
+            {
+                WriteEndTable(@out);
+            }
+
             @out.Close();
             log.WriteLine($"Conversion terminee, {count} lignes ecrites dans le fichier {fileName}");
         }
-        
+
         protected string Download(string sheetId)
         {
-            var client = new HttpClient();            
-            return client.GetStringAsync($"https://docs.google.com/spreadsheets/d/1MZ5Nz424T1CRSNi00Ky7jG-TrcKZeCYgqoClRjTfaXQ/export?exportFormat=csv&gid={sheetId}").Result;
-        }        
-        
+            var client = new HttpClient();
+            //https://docs.google.com/spreadsheets/d/1MZ5Nz424T1CRSNi00Ky7jG-TrcKZeCYgqoClRjTfaXQ/export?format=csv&id=1MZ5Nz424T1CRSNi00Ky7jG-TrcKZeCYgqoClRjTfaXQ&gid=1772862108       
+            return client.GetStringAsync($"https://docs.google.com/spreadsheets/d/1MZ5Nz424T1CRSNi00Ky7jG-TrcKZeCYgqoClRjTfaXQ/export?format=csv&gid={sheetId}").Result;
+        }
+
         protected static string[] ReadCsvCells(string line, int cellCount)
         {
             var cells = new string[cellCount];
@@ -76,7 +88,7 @@ namespace ConsoleApplication
             var cellIndex = 0;
             var cellStart = 0;
             var cellEnd = 0;
-            
+
             for (int i = 0; i <= line.Length; i++)
             {
                 if (cellIndex >= cells.Length)
@@ -84,10 +96,10 @@ namespace ConsoleApplication
                     // plus de place pour stocker les éléments, on arrête
                     break;
                 }
-                
+
                 var c = (i < line.Length) ? line[i] : '\n';
-                var c1 = (i < line.Length - 1) ? line[i+1] : '\n';
-                
+                var c1 = (i < line.Length - 1) ? line[i + 1] : '\n';
+
                 if (start && c == '"')
                 {
                     // début guillemets
@@ -95,7 +107,7 @@ namespace ConsoleApplication
                     quoted = true;
                     continue;
                 }
-                
+
                 if (quoted && c == '"' && c1 == '"')
                 {
                     // guillemets à l'intérieur de guillemets
@@ -103,7 +115,7 @@ namespace ConsoleApplication
                     i++;
                     continue;
                 }
-                
+
                 if (quoted && c == '"')
                 {
                     // fin des guillemets
@@ -111,7 +123,7 @@ namespace ConsoleApplication
                     quoted = false;
                     continue;
                 }
-                
+
                 if (c == '\n')
                 {
                     // fin de ligne
@@ -120,15 +132,15 @@ namespace ConsoleApplication
                     cellIndex++;
                     continue;
                 }
-                
+
                 if (start && c == ',')
                 {
                     // séparateur sans contenu
                     cells[cellIndex] = string.Empty;
                     cellIndex++;
-                    continue;                        
+                    continue;
                 }
-                
+
                 if (!quoted && c == ',')
                 {
                     // séparateur
@@ -138,7 +150,7 @@ namespace ConsoleApplication
                     start = true;
                     continue;
                 }
-                    
+
                 if (start)
                 {
                     // début du mot
@@ -147,10 +159,10 @@ namespace ConsoleApplication
                     start = false;
                     continue;
                 }
-                
+
                 cellEnd = i;
             }
-            
+
             return cells;
         }
     }
